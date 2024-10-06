@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Container, Typography, TextField, Button, Table, TableBody, TableCell, TableHead, TableRow, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import './App.css'
 
-const API_URL = 'http://localhost:3000/api/users'
+const API_URL = 'https://versel-deploy-backend-mu.vercel.app/api/users'
 
 const App = () => {
   const [users, setUsers] = useState([]);
